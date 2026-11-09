@@ -1,0 +1,28 @@
+# Solver executables and intermediate build files
+/BGHC/BGHC
+/BGHC/BGHC.exe
+/BGWC/BGWC
+/BGWC/BGWC.exe
+/BGWC/BGWC-work
+/BGWC/BGWC-work.exe
+/BGHC/*.o
+/BGWC/*.o
+/BGHC/build/
+/BGWC/build/
+
+# Example result files
+/core.txt
+/result.S.txt
+/result.T.txt
+/result.edges.txt
+/BGHC/core.txt
+/BGWC/result.S.txt
+/BGWC/result.T.txt
+/BGWC/result.edges.txt
+
+# Large input graphs belong outside the source release
+/data/
+/datasets/
+/BGHC/*.bin
+/BGWC/*.bin
+/BGWC/*.bin32
